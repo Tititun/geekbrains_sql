@@ -1,0 +1,8 @@
+Команды:
+
+mysqldump mysql help_keyword -r --where="1=1 LIMIT 100" > task-2-4.sql
+mysql test < task-2-4.sql
+
+Чтобы это сработало, пришлось из полученного файла task-2-4.sql удалить: /*!50100 TABLESPACE `mysql` */
+Иначе выдавал ошибку:
+ERROR 3723 (HY000) at line 25: The table 'help_keyword' may not be created in the reserved tablespace 'mysql'.
