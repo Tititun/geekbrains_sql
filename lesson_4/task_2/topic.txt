@@ -1,0 +1,3 @@
+В качестве сервиса для курсовой работы я бы хотел выбрать научный журнал Nature (www.nature.com).
+В качестве основной таблицы была бы табоица с научными статьями - articles.
+Другие таблицы - volumes, issues, authors, topics, comments, media, articles_relations и т.д.
